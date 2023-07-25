@@ -10,3 +10,4 @@ df_sorted = df.sort_values(by='Steps walked')
 
 print(df)
 print("hello")
+print("world")
