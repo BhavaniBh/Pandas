@@ -9,3 +9,4 @@ print(df[df['Steps walked'] > 9000])
 df_sorted = df.sort_values(by='Steps walked')
 
 print(df)
+print("hello")
