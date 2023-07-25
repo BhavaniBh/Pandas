@@ -1,0 +1,11 @@
+import pandas as pd
+data={
+    'Day number' :[1,2,3,4,5,6,7,8,9,10],
+    'Steps walked' :[6012,7079,6886,7230,4598,5564,6971,7763,8032,9569]
+    }
+df = pd.DataFrame(data)
+df['Steps walked'] += 2000
+print(df[df['Steps walked'] > 9000])
+df_sorted = df.sort_values(by='Steps walked')
+
+print(df)
